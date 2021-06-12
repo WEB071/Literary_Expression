@@ -554,12 +554,11 @@ ul{
     background-color: #fff;
   }
 
-  /* Contador */
 
 
 .parallax::before{
-  width: 100%;
-  height: 130%;
+  width: 450px;
+  height: 200px;
   position: absolute;
   top: 0;
   left: 0;
@@ -575,7 +574,7 @@ ul{
 
 div.hero{
   position: relative;
-  height: 30vw;
+  height: 40vw;
 }
 
 div.hero::before{
@@ -586,13 +585,41 @@ div.hero::before{
 
 div.hero1{
   position: relative;
-  height: 30vw;
+  height: 40vw;
 }
 
 div.hero1::before{
   background-image: url(../img/header2.jpg);
   content: '';
 }
+
+
+@media only screen and (min-width: 720px){
+  .parallax::before{
+    width: 100%;
+    height: 130%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    filter:brightness(.8) ;
+    -webkit-filter:brightness(.8) ;
+  }
+  div.hero{
+    position: relative;
+    height: 30vw;
+  }
+  
+div.hero1{
+  position: relative;
+  height: 30vw;
+}
+
+}
+
 
 
 
