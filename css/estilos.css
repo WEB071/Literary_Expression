@@ -4,16 +4,7 @@ html {
     line-height: 1.4;
   }
   
-  /*
-   * Remove text-shadow in selection highlight:
-   * https://twitter.com/miketaylr/status/12228805301
-   *
-   * Vendor-prefixed and regular ::selection selectors cannot be combined:
-   * https://stackoverflow.com/a/16982510/7133471
-   *
-   * Customize the background color to match your design.
-   */
-  
+
   ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -352,7 +343,7 @@ footer.site-footer{
   @media only screen and (min-width: 760px){
     
     .libro1{
-      background-image: radial-gradient(circle at 0% 0%, #826897 0, #4b425b 25%, #1a191d 50%, #000000 75%, #000000 100%);
+      
       width: 100%;
      
   }
@@ -371,12 +362,13 @@ footer.site-footer{
   img.img1{
     width: 500px;
     padding-left:50px ;
+   
+    
   }
 }
 
 .libro1{
  
-  background-image: radial-gradient(circle at 0% 0%, #826897 0, #4b425b 25%, #1a191d 50%, #000000 75%, #000000 100%);
   width: 100%;
   float: left;
   
@@ -385,6 +377,8 @@ footer.site-footer{
    padding-top: 40px;
   width: 350px;
   padding-left:80px ;
+ 
+           
 }
 
 .textolib{
@@ -403,7 +397,7 @@ footer.site-footer{
 @media only screen and (min-width: 760px){
     
   .libro1{
-    background-image: radial-gradient(circle at 0% 0%, #502f6b 0, #312646 25%, #1a191d 50%, #000000 75%, #000000 100%);
+
     width: 100%;
    
 }
@@ -433,7 +427,6 @@ p.textolib{
 
 .libro2{
 
-  background-image: radial-gradient(circle at 78.03% 90.03%, #212b1b 0, #1b2519 12.5%, #151e15 25%, #0e160f 37.5%, #030905 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
 width: 100%;
 padding: auto;
 
@@ -1324,3 +1317,42 @@ video.reseñavid{
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
 }
+
+
+/* FONDO VIDEO */
+.contenido__video{
+  background: #7DD174;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  filter:brightness(.6) ;
+  -webkit-filter:brightness(.6) ;
+}
+ 
+ /* Estilos para la etiqueta "video" con la calse (.video)  */
+ .video{
+  position: absolute;
+  max-width: 300%;
+  width: 100%;
+ }
+ 
+ @media(max-width: 900px){
+  .video{
+   width: 150%;
+  }
+ }
+ @media(max-width: 650px){
+  .video{
+   width: 280%;
+  }
+ }
+ @media(max-width: 480px){
+  .video{ 
+   width: 300%;
+  }
+ }
+ 

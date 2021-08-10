@@ -347,3 +347,9 @@ template {
 [hidden] {
   display: none;
 }
+
+
+.encabezado1 .navbar {
+  background-color: rgba(22, 8, 8, 0.138) !important;
+  
+}
