@@ -28,9 +28,8 @@
 </head>
 <body>
     
-<header class="encabezado">
-
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+<header class="encabezado1">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark container-fluid ">
         <a class="navbar-brand" href="index.html"><em> Literary expression</em></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -67,13 +66,23 @@
       </nav>
 
 
-
+      <div class="contenido__video">
+        <!-- 
+          autoplay: propiedad para que se reproduzca una ves que carga la página
+          loop: propiedad para el vídeo se repita infinitamente
+          muted: propiedad para que el vídeo no emita sonido
+          poster: propiedad que muestra una imagen hasta que cargue el vídeo 
+        -->
+        <video class="video" autoplay="autoplay" loop="loop" muted="muted" poster="images/artesano.png">
+         <source src="vid/Universe.mp4" type="video/mp4"><source/>
+        </video>
+       </div>
    
       <div class="libro1">
         <img class="img1" width="500px" src="img/libro1.png" style="float: left;" /><p class="textolib">
           Este libro destrozará tu ego, hasta hacerte caer en un vacío mediante versos y prosas que llevara al espíritu en busca del éxtasis, 
           atravesando todo un bosque plagado de vibraciones incomprendidas para la conciencia promedio. La verdad absoluta del simbolismo nunca
-           había estado tan cerca de tu atrio, y será mejor que no ingieras este libro, si no estas dispuesto a matar tu ego; 
+           había estado tan cerca de tu atrio, y será mejor que no ingieras este libro, si no estas dispuesto a matar a tu ego; 
           ya que este libro no esta predeterminado para enaltecer aquello que es limitado."The master comes up when the pupil is ready"
         </p>
         <a id="botonC" class="botonC" href="https://www.amazon.com.mx/despertar-rebeldiano-Alejandro-Arroyo-Sagrero/dp/B08CJNPPK3/ref=pd_rhf_dp_p_img_1?_encoding=UTF8&psc=1&refRID=71NDEDCBCFR03FZWF4B1" target="_blank">Comprar ahora</a>
