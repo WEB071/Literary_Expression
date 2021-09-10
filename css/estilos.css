@@ -343,7 +343,7 @@ footer.site-footer{
   @media only screen and (min-width: 760px){
     
     .libro1{
-      
+      background-color: #000000;
       width: 100%;
      
   }
@@ -368,7 +368,7 @@ footer.site-footer{
 }
 
 .libro1{
- 
+  background-color: #000000;
   width: 100%;
   float: left;
   
@@ -397,7 +397,7 @@ footer.site-footer{
 @media only screen and (min-width: 760px){
     
   .libro1{
-
+    background-color: #000000;
     width: 100%;
    
 }
@@ -426,7 +426,7 @@ p.textolib{
 
 
 .libro2{
-
+background-color: #123a39;
 width: 100%;
 padding: auto;
 
@@ -1333,26 +1333,5 @@ video.reseñavid{
   -webkit-filter:brightness(.6) ;
 }
  
- /* Estilos para la etiqueta "video" con la calse (.video)  */
- .video{
-  position: absolute;
-  max-width: 300%;
-  width: 100%;
- }
- 
- @media(max-width: 900px){
-  .video{
-   width: 150%;
-  }
- }
- @media(max-width: 650px){
-  .video{
-   width: 280%;
-  }
- }
- @media(max-width: 480px){
-  .video{ 
-   width: 300%;
-  }
- }
+
  
