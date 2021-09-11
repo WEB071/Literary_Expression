@@ -450,9 +450,12 @@ padding-right: 30px;
 text-align: center;
 }
 
-  /* invitados */
-
-
+#justificado{
+  text-align: justify;
+  font-family:'Times New Roman', Times, serif;
+  padding-right: 25px; padding-left: 25px;
+  font-size: 15px;
+}
   
   @media only screen and (min-width: 480px){
     ul.lista-libros li{
@@ -463,6 +466,11 @@ text-align: center;
   @media only screen and (min-width: 768px){
     ul.lista-libros li{
       width: 33.3%;
+    }
+
+    #justificado{
+      padding-right: 350px; padding-left: 250px;
+      font-size: 25px;
     }
   }
 
